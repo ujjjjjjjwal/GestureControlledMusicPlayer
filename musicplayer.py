@@ -578,7 +578,7 @@ customize_hand_gesture(instrument)
 st.markdown('<div id="video-section"></div>', unsafe_allow_html=True)
 video_placeholder = st.empty()
 
-# Start Video 
+# Play Video
 if st.session_state.start:
      run_camera(instrument)
-     
+
